@@ -28,6 +28,7 @@ if __name__ == '__main__':
     model = None
     # Create some memory of size 10.
     data = utilities.sample_data(size=10)
+    #print(data)
 
     if args.strategy == "Memory":
         model = Memory(data)
